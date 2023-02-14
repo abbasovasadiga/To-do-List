@@ -1,12 +1,46 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
     
+    <link rel="stylesheet" href="style.css">
+    <title>To-do List</title>
+</head>
+
+<body>
+    <div class="task">
+        <div class="yellow"></div>
+        <h1>To-do list</h1>
+        
+        <div>
+            <form class="list">
+              <img class="icon" id="icon" src="img/Group 74.svg" alt="">  
+                <div class="inputDiv">
+                    <div class="input-div">
+                        <input class="input-class" type="text" id="input" autocomplete="off" draggable="true" ondragstart="onStart(event)">
+                
+                        <img class="input-img" src="img/Group 77.svg" alt="" >
+                    </div>
+                        <div class="newDiv"></div>
+                    <br>
+                    <button id="btn" type="button">
+                        <div class="btn">
+                            <div class="btn-plus">+</div>
+                            <div class="btn-text">Добавить</div>
+                        </div>
+
+                    </button>
+                </div>
+               
+            </form>
+            
+        </div>
+    </div>     
+
+    <script src="script.js"></script>
 </body>
+
 </html>

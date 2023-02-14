@@ -1,0 +1,172 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.task {
+    font-family: 'Roboto';
+    font-style: normal;
+    border: 1px solid #C4C4C4;
+    max-width: 336px;
+    width: 100%;
+    border-radius: 10px;
+
+
+}
+
+.list {
+    position: relative;
+}
+
+.yellow {
+    width: 336px;
+    height: 28px;
+    background: #FFDC40;
+    position: relative;
+    z-index: -9;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+}
+
+.icon {
+    position: absolute;
+    right: 20px;
+    display: block;
+}
+
+#icon:hover, 
+#icon:focus {
+    background: red;
+
+}
+
+
+h1 {
+    margin-top: 13px;
+    margin-bottom: 22px;
+    font-weight: 900;
+    font-size: 26px;
+    line-height: 30px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #000000;
+}
+
+.input {
+    position: relative;
+    margin-top: 42px;
+}
+
+#newInput {
+    border: 1px solid #C4C4C4;
+    width: 286px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 28px;
+    position: relative;
+    outline: none;
+
+
+}
+
+#input {
+    border: 1px solid #C4C4C4;
+    width: 286px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 28px;
+    position: relative;
+    outline: none;
+    margin-top: 24px;
+
+}
+
+.input-img {
+
+    position: absolute;
+    right: 40px;
+    top: 34px;
+
+}
+
+.new-input-img {
+    position: absolute;
+    right: 40px;
+    top: 10px;
+}
+
+.deleteTask {
+    position: absolute;
+    right: 0px;
+}
+
+.input-img:hover {
+    background: #833AE0;
+    border-radius: 50%;
+}
+
+.new-input-img:hover {
+    background: #833AE0;
+    border-radius: 50%;
+}
+
+button {
+    cursor: pointer;
+    border: none;
+    background: none;
+    margin-left: 90px;
+    margin-bottom: 19px;
+}
+
+.btn {
+    width: 150px;
+    height: 42px;
+    background: #833AE0;
+    border-radius: 71px;
+    display: flex;
+
+}
+
+.btn:hover {
+    background: #9953F1;
+}
+
+.btn-text {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.btn-plus {
+    width: 42px;
+    height: 42px;
+    background: #9953F1;
+    border-radius: 71px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-div {
+    position: relative;
+
+}
+
+.todoList {
+    position: relative;
+}
