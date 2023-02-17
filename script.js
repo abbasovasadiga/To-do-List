@@ -1,8 +1,9 @@
 let data = [];
-let newDiv = document.querySelector('.newDiv');
+
 const button = document.getElementById('btn');
 const inputDiv = document.querySelector('.inputDiv');
 const input = document.getElementById('input');
+const icon = document.querySelector('#icon')
 
 
 const inputImg = document.querySelector('.input-img')
@@ -53,7 +54,7 @@ button.addEventListener('click', function (){
     showItem()
     
     function deleteItem(index){
-        let localItems = JSON.parse( localStorage.getItem('localItem'))
+        JSON.parse( localStorage.getItem('localItem'))
         taskList.splice(index, 1)
         localStorage.setItem('localItem', JSON.stringify(taskList));
         showItem()
@@ -64,3 +65,5 @@ button.addEventListener('click', function (){
     localStorage.clear()
     showItem()
     });
+
+
